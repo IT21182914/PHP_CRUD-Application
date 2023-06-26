@@ -73,7 +73,7 @@ $address = "";
    $successMessage = "New client added successfully";
 
 
-   header("location: /myshop/index.php");
+   header("location: /myshop/php/index.php");
    exit;
 
     } while (false);
@@ -87,6 +87,21 @@ $address = "";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyShop</title>
 
+    <style>
+
+
+body {
+    font-family: sans-serif;
+    background-image: url('../images/woman.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+
+
+
+</style>
+ 
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -95,8 +110,8 @@ $address = "";
 
 <div class="container my-5">
 
-<h2>New Client</h2>
-
+<h2 style="text-align: center;">New Client</h2>
+<br>
 <?php 
 
 if (!empty($errorMessage)){
@@ -227,7 +242,7 @@ if (!empty($successMessage)){
 
 <div class="col-sm-3 d-grid">
 
-<a class="btn btn-outline-primary" href="/myshop/index.php" role = "button">Cancel</a>
+<a class="btn btn-dark" href="/myshop/php/index.php" role = "button">Cancel</a>
 
 
 </div>

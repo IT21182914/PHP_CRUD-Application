@@ -25,7 +25,7 @@ $connection = new mysqli($servername, $username, $password, $database);
     if(!$result){
         die("Invalid query: ") . $connection->error;
     }
-    header("location: /myshop/index.php");
+    header("location: /myshop/php/index.php");
 }
 
 

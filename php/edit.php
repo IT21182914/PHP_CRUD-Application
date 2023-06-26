@@ -78,7 +78,7 @@ if (empty($name) || empty($email) || empty($phone) || empty($address)){
 
     $successMessage = "Client updated successfully";
 
-    header("location: /myshop/index.php");
+    header("location: /myshop/php/index.php");
 
 } while (false);
 
@@ -93,6 +93,21 @@ if (empty($name) || empty($email) || empty($phone) || empty($address)){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyShop</title>
 
+
+    <style>
+
+
+body {
+    font-family: sans-serif;
+    background-image: url('../images/woman.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+
+
+
+</style>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -101,8 +116,8 @@ if (empty($name) || empty($email) || empty($phone) || empty($address)){
 
 <div class="container my-5">
 
-<h2>New Client</h2>
-
+<h2 style="text-align: center;">Update Client</h2>
+<br>
 <?php 
 
 if (!empty($errorMessage)){
@@ -227,13 +242,13 @@ if (!empty($successMessage)){
 
 <div class="offset-sm-3 col-sm-3 d-grid">
 
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary">Update</button>
 
 </div>
 
 <div class="col-sm-3 d-grid">
 
-<a class="btn btn-outline-primary" href="/myshop/index.php" role = "button">Cancel</a>
+<a class="btn btn-dark" href="/myshop/index.php" role = "button">Cancel</a>
 
 
 </div>
