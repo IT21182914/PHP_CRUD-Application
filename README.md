@@ -1,9 +1,10 @@
-# PHP_CRUD-Application
+![Screenshot](https://github.com/IT21182914/PHP_CRUD-Application/assets/99383107/2b131eed-7cf7-43fb-adf7-daa6dd44bc38)# PHP_CRUD-Application
 Simple CRUD Application using PHP &amp; Bootstrap
 
 
 
-![Uploading DashBoard.png…]()
+
+![Screenshot](https://github.com/IT21182914/PHP_CRUD-Application/assets/99383107/0c05be04-fa1c-4f6e-a1cd-ff81606db682)
 
 ![Screenshot (6)](https://github.com/IT21182914/PHP_CRUD-Application/assets/99383107/7ebfc7d5-be77-426a-8976-52b4504b2d53)
 ![Screenshot (7)](https://github.com/IT21182914/PHP_CRUD-Application/assets/99383107/01393009-47ab-41ae-9cda-48847db15505)
